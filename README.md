@@ -1,3 +1,2 @@
-# Obsidian-notes
-Okk
-Okk
+# Obsidian-notesThis is a sync
+
