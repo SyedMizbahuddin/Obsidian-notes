@@ -21,6 +21,6 @@
   
 - **Feature flags**: This is very very useful, this allows to turn off any feature any time to be able to save compute when we s crunch of resources. This can be turned off based on geography, audience type, OS, device etc.
   
-- **Panic mode**: During failure, we need our P0 services to up and running at the cost of P1, P2 services, during breakage recommendation systems, personalization systems, profile etc. are turned off. can use Static Response taking snapshot of the response and showing same to everyone, ex: same homepage for everyone.
+- **Panic mode**: During failure, we need our P0 services (streaming, ads, payment) to up and running at the cost of P1, P2 services, during breakage recommendation systems, personalization systems, profile etc. are turned off. can use Static Response taking snapshot of the response and showing same to everyone, ex: same homepage for everyone.
 
    
