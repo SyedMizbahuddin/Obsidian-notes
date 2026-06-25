@@ -22,6 +22,7 @@
 - **Feature flags**: This is very very useful, this allows to turn off any feature any time to be able to save compute when we s crunch of resources. This can be turned off based on geography, audience type, OS, device etc.
   
 - **Panic mode**: During failure, we need our P0 services (streaming, ads, payment) to up and running at the cost of P1, P2 services, during breakage recommendation systems, personalization systems, profile etc. are turned off. can use Static Response taking snapshot of the response and showing same to everyone, ex: same homepage for everyone
-- **DB scaling**:  Scaling up DB more replicas addition takes huge time 45 min, hence this needs to be scaled up before hand using back of the envelope cal
+- **DB scaling**:  Scaling up DB more replicas addition takes huge time 45 min, hence this needs to be scaled up before hand using back of the envelope calculation.
+- **Math**:  Using load testing calculate single server and DB peak load capacity. Now keep the capacity at 60% and divide by the traffic. And that is the number of servers required.
 
    
