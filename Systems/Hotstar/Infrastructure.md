@@ -14,10 +14,12 @@
 	1. With analysis identify how many servers are needed, 2M Request/sec need 800 server etc.
 	2. Proactively before match procure the servers with any possible configuration using priority order.
    
-- Project HULK: This is for 
+- Project HULK, Chaos Engineering: This is for stress testing replaying the user journey.   Breaking the systems purposefully
+- User Journey: The best way to improve scale is by understanding the user journey.
+  Before the match the user lands on the home page, and right after the match user lands on the home page, so it is important to scale both home and Live Streaming.
+- Feature flags: This is very very useful, this allows to turn off any feature any time to be able to save compute when we s crunch of resources.
+- Panic mode: 
 1. s
-2. s
-3. s
-4. 
+2. 
    
    
