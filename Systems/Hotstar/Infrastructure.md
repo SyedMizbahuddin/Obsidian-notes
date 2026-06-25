@@ -1,6 +1,6 @@
  [Source](https://youtu.be/9b7HNzBB3OQ)
  
-- Auto Scaling: cannot keep up with the extreme growth rate. 1M request/sec.
+- **Auto Scaling**: cannot keep up with the extreme growth rate. 1M request/sec.
    
    You can configure for 60% usage of the CPU start auto scale but even before new server starts up in 90 sec the existing server will get bloated and go down.
    
@@ -14,12 +14,13 @@
 	1. With analysis identify how many servers are needed, 2M Request/sec need 800 server etc.
 	2. Proactively before match procure the servers with any possible configuration using priority order.
    
-- Project HULK, Chaos Engineering: This is for stress testing replaying the user journey.   Breaking the systems purposefully
-- User Journey: The best way to improve scale is by understanding the user journey.
+- **Project HULK, Chaos Engineering**: This is for stress testing replaying the user journey.   Breaking the systems purposefully
+  
+- **User Journey**: The best way to improve scale is by understanding the user journey.
   Before the match the user lands on the home page, and right after the match user lands on the home page, so it is important to scale both home and Live Streaming.
-- Feature flags: This is very very useful, this allows to turn off any feature any time to be able to save compute when we s crunch of resources.
-- Panic mode: 
-1. s
-2. 
-   
+  
+- **Feature flags**: This is very very useful, this allows to turn off any feature any time to be able to save compute when we s crunch of resources. This can be turned off based on geography, audience type, OS, device etc.
+  
+- **Panic mode**: During failure, we need our P0 services to up and running at the cost of P1, P2 services, during breakage recommendation systems, personalization systems, profile etc. are turned off. can use Static Response taking snapshot of the response and showing same to everyone, ex: same homepage for everyone.
+
    
